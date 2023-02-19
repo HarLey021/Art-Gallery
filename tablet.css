@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+
+    body{
+        background: #FFFFFF;
+    }
+
+    .header-box {
+        display: flex;
+    }
+
+    .header-mobile-image {
+        display: none;
+    }
+    .header-desktop-image{
+        display: none;
+    }
+
+    .header-tablet-image {
+        display: block;
+    }
+
+    .header-text {
+        width: 339px;
+        margin-top: 145px;
+        transform: translate(-48px);
+    }
+
+    .transparent-h1{
+        display: none;
+    }
+
+    .main-h1 {
+        margin-left: 0;
+        font-size: 70px;
+        line-height: 65px;
+        margin-bottom: 48px;
+    }
+
+    .header-p {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 48px;
+    }
+
+    .location-button-rect {
+        margin-left: 0;
+    }
+
+    section {
+        max-width: 689px;
+        margin-left: 39px;
+        margin-right: 40px;
+        margin-bottom: 120px;
+    }
+
+    .tablet-section-head {
+        position: relative;
+        width: 689px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 11px;
+    }
+
+    .introduce-text {
+        width: 223px;
+        height: 299px;
+        position: absolute;
+        margin-bottom: 0;
+    }
+
+    .section-image1{
+        display: none;
+    }
+
+    .section-image2 {
+        display: none;
+     }
+ 
+     .section-image3{
+         display: none;
+     }
+
+     .desktop-section-image1{
+        display: none;
+     }
+
+    .tablet-section-image1 {
+        display: block;
+        position: absolute;
+        margin-bottom: 0;
+        left: 292px;
+    }
+
+    .desktop-section-image2{
+        display: none;
+    }
+
+    .tablet-section-image2{
+        display: block;
+    }
+
+    .desktop-section-image3{
+        display: none;
+    }
+    
+    .tablet-section-image3{
+        display: block;
+        margin-left: 11px;
+    }
+    
+    .tablet-section-body{
+        display: flex;
+        max-height: 720px;
+    }
+
+    .summary-box{
+        width: 280px;
+        height: 396px;
+        margin-left: 11px;
+        margin-top: 11px;
+    }
+
+    .summary-text{
+        width: 223px;
+    }
+
+    footer{
+        height: 216px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-summary{
+        max-width: 689px;
+        width: 100%;
+        height: 104px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .footer-p{
+        width: 281px;
+        margin: 0;
+    }
+}

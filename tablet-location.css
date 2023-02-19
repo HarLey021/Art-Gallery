@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+
+    header {
+        max-width: 768px;
+        height: 600px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .desktop-map{
+        display: none;
+    }
+
+    .tablet-map {
+        display: block;
+    }
+
+    .home-button {
+        display: flex;
+        z-index: 1;
+        transform: translate(39px, -600px);
+    }
+
+    .main-box {
+        width: 768px;
+        max-height: 436px;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .text-box{
+        width: 689px;
+        height: 268px;
+        display: flex;
+        justify-content: space-between;
+        margin: 88px 40px 80px 39px;
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 50px;
+        padding: 0;
+        margin: 0;
+        width: 223px;
+        height: 100px;
+    }
+
+    .inner-main-box {
+        width: 398px;
+        max-height: 268px;
+        margin: 0;
+    }
+
+    footer {
+        width: 768px;
+        height: 216px;
+    }
+
+    .footer-logo{
+        margin: 0;
+    }
+
+    .footer-summary {
+        margin: 56px 40px 56px 39px;
+        max-width: 689px;
+        height: 104px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-p{
+        width: 281px;
+        margin: 0;
+    }
+
+
+}

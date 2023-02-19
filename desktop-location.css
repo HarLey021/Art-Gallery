@@ -1,0 +1,116 @@
+@media (min-width: 1440px){
+
+    header {
+        max-width: 1440px;
+        height: 600px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .tablet-map {
+        display: none;
+    }
+
+    .desktop-map{
+        display: block;
+    }
+
+    .home-button {
+        width: 264px;
+        transform: translate(156px, -600px);
+    }
+
+    .home-button:hover .home-arrow-button{
+        background: #151515;
+        cursor: pointer;
+    }
+
+    .home-button:hover .home-button-rect{
+        background: #D5966C;
+        cursor: pointer;
+    }
+
+    .main-box {
+        width: 1440px;
+        max-height: 548px;
+    }
+
+    .text-box{
+        width: 1110px;
+        height: 316px;
+        margin: 104px 165px 128px 165px;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 70px;
+        width: 350px;
+        height: 140px;
+    }
+
+    .inner-main-box {
+        width: 540px;
+        max-height: 316px;
+    }
+
+    h2{
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    .first-p{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+
+    .second-p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    footer {
+        width: 1440px;
+        height: 244px;
+        
+    }
+
+    .footer-summary {
+        max-width: 1110px;
+        height: 84px;
+        margin: 80px 165px 80px 165px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-logo{
+        width: 160px;
+        height: 58px;
+    }
+
+    .footer-p{
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .facebook-logo:hover path{
+        fill: #FFFFFF;
+        cursor: pointer;
+    } 
+
+    .instagram-logo:hover path{
+        fill: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .twitter-logo:hover path{
+        fill: #FFFFFF;
+        cursor: pointer;
+    }
+
+
+}

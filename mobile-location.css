@@ -1,0 +1,149 @@
+body {
+    background: #FCFAF9;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    max-width: 375px;
+    height: 550px;
+}
+
+.tablet-map{
+    display: none;
+}
+
+.desktop-map{
+    display: none;
+}
+
+.home-button {
+    display: flex;
+    z-index: 1;
+    transform: translate(0, -552px);
+}
+
+.home-arrow-button {
+    background: #D5966C;
+    border: none;
+    width: 56px;
+    height: 72px;
+}
+
+.home-button-rect {
+    background: #151515;
+    width: 208px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.home-button-p {
+    color: #FFFFFF;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    margin-left: 32px;
+}
+
+.main-box {
+    background: #151515;
+    width: 375px;
+    max-height: 493px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Big Shoulders Display';
+    width: 343px;
+    height: 45px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    padding-top: 48px;
+    margin-bottom: 48px;
+}
+
+.text-box{
+    margin-bottom: 56px;
+}
+
+.inner-main-box {
+    width: 343px;
+}
+
+h2 {
+    color: #D5966C;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.first-p {
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.second-p {
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer {
+    background: #D5966C;
+    width: 375px;
+    max-height: 336px;
+}
+
+.footer-summary {
+    max-width: 311px;
+    margin-top: 48px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 48px;
+}
+
+.footer-logo {
+    width: 110px;
+    height: 40px;
+    margin-bottom: 38px;
+}
+
+.footer-p {
+    color: #151515;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 38px;
+}
+
+.social-network-logos{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
